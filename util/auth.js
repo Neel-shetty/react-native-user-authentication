@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "AIzaSyD7iIkxI9ttS8syGN8W1obwO28g3oBOJtk";
+const API_KEY = "[insertapikey]";
 
 async function authenticate(mode, email, password) {
   const url = `https://identitytoolkit.googleapis.com/v1/accounts:${mode}?key=${API_KEY}`;
